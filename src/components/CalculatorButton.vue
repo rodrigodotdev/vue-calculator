@@ -15,7 +15,7 @@ defineProps<{
 
 <template>
   <button :class="`calculator-button calculator-button--${type}`">
-    <img v-if="icon" :src="`/src/assets/keyboard/${icon}.svg`" :alt="value" />
+    <img v-if="icon" :src="`/src/assets/${icon}.svg`" :alt="value" />
     <span v-else>{{ value }}</span>
   </button>
 </template>

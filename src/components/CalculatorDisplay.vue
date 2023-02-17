@@ -11,7 +11,7 @@ const props = defineProps<{
   <div class="calculator-display">
     <div class="calculator-display--previous">{{ props.previous }}</div>
     <div class="calculator-display--current">
-      <img src="@/assets/equals.svg" alt="equals" />
+      <img src="@/assets/display-equals.svg" alt="equals" />
       <span>{{ props.current }}</span>
     </div>
   </div>
