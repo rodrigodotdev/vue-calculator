@@ -6,16 +6,18 @@ import type {
 } from "@/interfaces/IButton";
 import { defineProps } from "vue";
 
-defineProps<{
+const props = defineProps<{
   type: IButtonType;
   value: IButtonValue;
   icon: IButtonIcon;
 }>();
+
+const src = new URL(`../assets/${props.icon}.svg`, import.meta.url).href;
 </script>
 
 <template>
   <button :class="`calculator-button calculator-button--${type}`">
-    <img v-if="icon" :src="`/src/assets/keyboard/${icon}.svg`" :alt="value" />
+    <img v-if="icon" :src="src" :alt="value" />
     <span v-else>{{ value }}</span>
   </button>
 </template>
