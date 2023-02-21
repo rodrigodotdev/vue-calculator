@@ -16,7 +16,6 @@ Before you begin, ensure you have met the following requirements:
 
 * You have installed the latest version of `<node.js / npm>`
 
-
 ## 🚀 Installation and usage
 
 To install and use vue-calculator, follow these steps:
