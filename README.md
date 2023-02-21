@@ -37,3 +37,7 @@ npm run dev
 ```sh
 npm run build
 ```
+
+## 🕹️ Demo
+
+[https://vue-calculator-simple.vercel.app/](https://vue-calculator-simple.vercel.app/)
